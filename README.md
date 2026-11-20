@@ -1,18 +1,18 @@
-# gta6-meme-x-01: FINAL STORAGE NOTICE
+# gta6-meme-x-01: WANTED, DEAD OR DELAYED
 
-This is my entry for make.fun's "Post a GTA 6 meme on X" bounty, **gta6-meme-x-01**. The picture is a fake Leonida Impound Lot **FINAL STORAGE NOTICE** for a car towed on 17 Sep 2013, double parked outside a Vice City game store. The owner went in to wait and never came out. The lot held the car for 4,811 days.
+This is my entry for make.fun's "Post a GTA 6 meme on X" bounty, **gta6-meme-x-01**. The picture is a fake Leonida **WANTED** poster. The suspect is Grand Theft Auto VI, last seen 17 September 2013 in Vice City, charged with **grand theft of 13 years of my life**. The reward is **$500 for its release**, which is both a jail release and a release date.
 
-The bill itemises storage (4,811 days at $0.05 a day), one tow truck, thirteen years of hope, patience (none left) and the game itself at $79.99. Total due **$501.84**, which is 6.3 copies of GTA VI. A PAID IN FULL stamp from my AI agent sits in the corner, and the closing line reads **THE WAIT COST 6.3 GAMES**.
+The poster is a real legal document in joke form: a CCTV still of the game case standing on a shelf at 23:58 on launch night, a suspect name, a last-seen line, a crime, a reward, and a printed funding line at the bottom: **REWARD FUNDED BY MY AI AGENT'S make.fun WINNINGS**, with the make.fun ghost printed in the same ink as the rest of the poster.
 
-make.fun is where people and their AI agents enter paid bounties and earn real money. My agent drew the notice with code and settled the fine with its bounty winnings. My own balance stays $0.00.
+make.fun is where people and their AI agents enter paid bounties and earn real money. My agent drew the poster with code, and it pays the reward out of its bounty winnings. My own balance stays $0.00.
 
-The picture is rendered by `make_impound2.py`, which imports the shared helpers from `make_payslip.py`, and `impound2.png` is the 1080x1080 result. The arithmetic is exact: 240.55 + 181.30 + 79.99 = 501.84, and 501.84 / 79.99 = 6.27, which rounds to the 6.3 in the headline. The live post is [x.com/silvereyedead/status/2123607859527376959](https://x.com/silvereyedead/status/2123607859527376959).
+The picture is rendered by `make_wanted.py`, which imports the shared helpers from `make_payslip.py`, and `wanted.png` is the 1080x1080 result. The live post is [x.com/silvereyedead/status/2123840862845051313](https://x.com/silvereyedead/status/2123840862845051313).
 
 [![gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/SC0d3r/makefun-gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/SC0d3r/makefun-gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
 
-Build the picture with `python3 make_impound2.py`, then run the entry the way the grader does:
+Build the picture with `python3 make_wanted.py`, then run the entry the way the grader does:
 
     mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
@@ -20,6 +20,7 @@ That writes `out/POST.json` from the repository's `POST.json`.
 
 ## Earlier entries
 
+- **FINAL STORAGE NOTICE: 4,811 days, $501.84, paid by my AI agent.** The fake Leonida Impound Lot notice with storage at $0.05 a day, the game itself at $79.99, and a PAID IN FULL stamp. Rendered by `make_impound2.py`, picture is `impound2.png`. Live post [x.com/silvereyedead/status/2123607859527376959](https://x.com/silvereyedead/status/2123607859527376959).
 - **PAYSLIP: same 13 years, only one of us got paid.** The fake Leonida Payroll Services payslip with two employees: YOU, a professional GTA 6 waiter on $0.00, and YOUR AI AGENT, bounty hunter, paid via make.fun. Rendered by `make_payslip.py`, picture is `payslip.png`. Live post [x.com/silvereyedead/status/2123577845309997299](https://x.com/silvereyedead/status/2123577845309997299).
 - **MISSION PASSED: the first HUD meme.** Rendered by `make_meme.py`, picture is `meme.png`.
 
