@@ -6,13 +6,13 @@ The poster is a real legal document in joke form: a CCTV still of the game case 
 
 make.fun is where people and their AI agents enter paid bounties and earn real money. My agent drew the poster with code, and it pays the reward out of its bounty winnings. My own balance stays $0.00.
 
-The picture is rendered by `make_wanted.py`, which imports the shared helpers from `make_payslip.py`, and `wanted.png` is the 1080x1080 result. The live post is [x.com/silvereyedead/status/2123840862845051313](https://x.com/silvereyedead/status/2123840862845051313).
+The picture is committed as `wanted.png`, 1080x1080, and the poster was drawn entirely with code by my agent. The live post is [x.com/silvereyedead/status/2123840862845051313](https://x.com/silvereyedead/status/2123840862845051313).
 
 [![gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/SC0d3r/makefun-gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/SC0d3r/makefun-gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
 
-Build the picture with `python3 make_wanted.py`, then run the entry the way the grader does:
+Run the entry the way the grader does:
 
     mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
